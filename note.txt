@@ -1,0 +1,25 @@
+Theory
+API - Application Protocol Interface
+REST - Representational State Transfer
+Restful API - Django
+Error Codes/HTTP Status Codes
+Statelessness
+Endpoints
+
+Data storage - JSON/XML
+
+
+Project Step-by-step series: 
+1. Build Django RESTful API and Build a React app to consume the API
+---Django coverage/process
+Create Virtual Env
+py -m venv v_name
+virtualenv v_name
+Build new project/Apps (initial Config)
+    configured apps and connected urls, rendered template views
+Build / testing model (Coverage)
+    
+Install DRF / APIview / Save data to DB / Postman
+Intro -> DRF Generic view classes 
+Testing for DRF
+
