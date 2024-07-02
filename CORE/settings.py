@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "blog",
     "blog_api",
+    "rest_framework"
 ]
 
 MIDDLEWARE = [
@@ -79,16 +80,17 @@ DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.sqlite3",
         "NAME": BASE_DIR / "db.sqlite3",
+
         # mysql setup
-        # "ENGINE": "django.db.backends.mysql",
-        # "NAME": "blogdatabase",
-        # 'USER': 'root',
-        # 'PASSWORD': 'arowosola1449',
-        # 'HOST': 'localhost',
-        # 'PORT': '3306',
-        # 'OPTIONS': {
-        #     'charset': 'utf8mb4',
-        # },
+        "ENGINE": "django.db.backends.mysql",
+        "NAME": "blogdatabase",
+        'USER': 'root',
+        'PASSWORD': 'iarowosola9876#+',
+        'HOST': 'localhost',
+        'PORT': '3306',
+        'OPTIONS': {
+            'charset': 'utf8mb4',
+        },
     }
 }
 

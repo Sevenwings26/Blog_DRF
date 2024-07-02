@@ -1,13 +1,12 @@
 # blog_api/urls.py
 
 from django.urls import path
-# from django.views.generic import TemplateView
-from . import views
+from .views import PostList, PostDetail
 
 
 app_name = 'blog_api'
 
 urlpatterns = [
-    # path('', PostList.as_view(), name='listcreate'),
-    # path('<int:pk>/', PostDetail.as_view(), name='detailcreate'),
+    path('', PostList.as_view(), name='listcreate'),
+    path('<int:pk>/', PostDetail.as_view(), name='detailcreate'),
 ]

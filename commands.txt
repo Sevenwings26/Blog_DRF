@@ -1,0 +1,2 @@
+py manage.py makemigrations --dry-run --verbosity 3
+pip install djangorestframework

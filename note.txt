@@ -18,7 +18,7 @@ virtualenv v_name
 Build new project/Apps (initial Config)
     configured apps and connected urls, rendered template views
 Build / testing model (Coverage)
-    
+    pip Install mysqlclient
 Install DRF / APIview / Save data to DB / Postman
 Intro -> DRF Generic view classes 
 Testing for DRF
