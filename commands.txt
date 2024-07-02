@@ -1,2 +1,9 @@
 py manage.py makemigrations --dry-run --verbosity 3
 pip install djangorestframework
+
+to test project
+pip install coverage
+
+to omit a folder
+coverage run --omit='*/venv/*' manage.py test
+coverage html

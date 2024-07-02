@@ -19,6 +19,7 @@ Build new project/Apps (initial Config)
     configured apps and connected urls, rendered template views
 Build / testing model (Coverage)
     pip Install mysqlclient
+    pip Install coverage (covering is used for testing)
 Install DRF / APIview / Save data to DB / Postman
 Intro -> DRF Generic view classes 
 Testing for DRF
